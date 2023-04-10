@@ -1,0 +1,5 @@
+var dobDate = new Date(dob);
+    if (isNaN(dobDate.getTime()) || dobDate > new Date()) {
+      alert("Please enter a valid date of birth");
+      return false;
+    }
